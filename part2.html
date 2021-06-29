@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div id="navBar">
+        <h1>Network</h1>
+    </div>
+    <h1 id="title">Your Feed</h1>
+    <div id="container">
+        <div id="sideBar">
+            <img src="img/user-circle.png" alt="profile pic">
+            <br><br>
+            <a href="#">Add an avator</a>
+            <br><br>
+            <h2>James Doe</h2>
+        </div>
+        <div id="mainContent">
+            <div class="userBox">
+                <div class="userHeader">
+                    <h1>Neil M</h1>
+                    <p class="userLike neil">9 like(s)</p>
+                    <button onclick="likeCount('neil')">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think <a href="#">link</a></p>
+            </div>
+            <div class="userBox">
+                <div class="userHeader">
+                    <h1>Nicole K</h1>
+                    <p class="userLike nicole">12 like(s)</p>
+                    <button onclick="likeCount('nicole')">Like</button>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="userBox">
+                <div class="userHeader">
+                    <h1>Nicole K</h1>
+                    <p class="userLike jim">9 like(s)</p>
+                    <button onclick="likeCount('jim')">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="scriptpart2.js"></script>
+</body>
+</html>

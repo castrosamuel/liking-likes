@@ -1,0 +1,22 @@
+#userBox {
+    width:400px;
+    height:160px;
+    border:2px solid black;
+    padding:2%;
+    margin: 2% 25%;
+}
+
+#userHeader {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:25%;
+}
+
+#userHeader button {
+    background-color: rgb(228, 208, 93);
+    box-shadow: 3px 3px black;
+    border:2px solid black;
+    padding:4px 10px;
+    font-weight: bold;
+}
